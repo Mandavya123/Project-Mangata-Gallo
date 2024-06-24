@@ -1,0 +1,118 @@
+body{
+    background-color: antiquewhite;
+    font-family:'Anek bangla','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-overflow: ellipsis;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 10%;
+}
+
+nav{
+    margin: 5px;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li:hover{
+    background-color: rgb(102, 79, 69);
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+section{
+    display: flex;
+    margin: 5px;
+}
+
+article{
+    margin: 5px;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner h1{
+    position:absolute;
+    color: aliceblue;
+    top: 0%;
+    left: 50px;
+}
+
+.banner p{
+    position: absolute;
+    color: aliceblue;
+    width: 50%;
+    top: 25%;
+    left: 50px;
+}
+
+.menu img, .care img, .trend img{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.menu, .trend, .care{
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 10px;
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    bottom: 0;
+}
+
+footer img{
+    width: 8vw;
+    height: 8vh;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer p{
+    text-align: right;
+    border-top: 2px solid black;
+}
